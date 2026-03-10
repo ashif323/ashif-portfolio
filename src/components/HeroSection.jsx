@@ -24,7 +24,9 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl opacity-100">
-            Crafting digital experiences that blend creativity and logic. Passionate about turning innovative ideas into reality with clean code and stunning design—let’s build the future together!
+            Crafting digital experiences that blend creativity and logic.
+            Passionate about turning innovative ideas into reality with clean
+            code and stunning design—let’s build the future together!
           </p>
 
           <div className="pt-4">
@@ -37,7 +39,7 @@ export const HeroSection = () => {
         {/* Right: Image */}
         <div className="md:w-1/2 w-full flex justify-center md:justify-end mt-8 md:mt-0">
           <img
-            src="/projects/formal 2.png" // Update to your exact image path
+            src="/projects/professional-pic.jpg" // Update to your exact image path
             alt="Ashif Iqbal"
             className="w-60 h-60 md:w-80 md:h-80 object-cover rounded-full shadow-lg"
           />

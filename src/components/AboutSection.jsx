@@ -18,15 +18,25 @@ export const AboutSection = () => {
           {/* Text Section */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Data Engineer & Software Developer & WordPress Developer
+              Passionate Data Engineer & Software Developer & WordPress
+              Developer
             </h3>
 
             <p className="text-muted-foreground">
-              As a multi-disciplinary technologist, I design and build modern web applications using React, PHP, Tailwind CSS, and MySQL. With hands-on experience in both frontend and backend, I create responsive interfaces, custom WordPress plugins, and automated dashboards tailored for real business needs.
+              As a multi-disciplinary technologist, I design and build modern
+              web applications using React, PHP, Tailwind CSS, and MySQL. With
+              hands-on experience in both frontend and backend, I create
+              responsive interfaces, custom WordPress plugins, and automated
+              dashboards tailored for real business needs.
             </p>
 
             <p className="text-muted-foreground">
-              My data engineering work involves transforming raw data into actionable insights using Python and SQL, while also maintaining high standards in code quality and DevOps. Whether delivering intuitive user experiences or extracting value from complex data sets, I strive for solutions that are efficient, scalable, and user-centric.
+              My data engineering work involves transforming raw data into
+              actionable insights using Python and SQL, while also maintaining
+              high standards in code quality and DevOps. Whether delivering
+              intuitive user experiences or extracting value from complex data
+              sets, I strive for solutions that are efficient, scalable, and
+              user-centric.
             </p>
 
             {/* Buttons Section with CV Dropdown */}
@@ -44,9 +54,16 @@ export const AboutSection = () => {
                   Download CV ▼
                 </button>
                 {dropdownOpen && (
-                  <div
-                    className="absolute left-0 top-full mt-2 bg-white dark:bg-gray-800 shadow-lg rounded-lg p-2 min-w-[200px] z-10"
-                  >
+                  <div className="absolute left-0 top-full mt-2 bg-white dark:bg-gray-800 shadow-lg rounded-lg p-2 min-w-[200px] z-10">
+                    <a
+                      href="/Backend_Developer.pdf"
+                      download
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded text-left"
+                      onClick={() => setDropdownOpen(false)}
+                    >
+                      Backend Developer
+                    </a>
+
                     <a
                       href="/Ashif_frontend_2025.pdf"
                       download
@@ -95,7 +112,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Web Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with modern frameworks.
+                    Creating responsive websites and web applications with
+                    modern frameworks.
                   </p>
                 </div>
               </div>
@@ -108,7 +126,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user experiences.
+                    Designing intuitive user interfaces and seamless user
+                    experiences.
                   </p>
                 </div>
               </div>
@@ -121,7 +140,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile methodologies.
+                    Leading projects from conception to completion with agile
+                    methodologies.
                   </p>
                 </div>
               </div>
