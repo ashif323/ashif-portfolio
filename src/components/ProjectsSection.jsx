@@ -1,33 +1,65 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
- {
-  "id": 1,
-  "title": "React WordPress App",
-  "description": "A React frontend seamlessly integrated with WordPress backend via REST API and JWT Auth. Manage posts with rich editing using CKEditor 5, image uploads, and TailwindCSS styling.",
-  "image": "/projects/project1.png",
-  "tags": ["React", "WordPress", "REST API", "JWT Auth", "CKEditor 5","Vite"],
-  "demoUrl": "#",
-  "githubUrl": "https://github.com/ashif323/react-wordpress-app"
+  {
+    id: 1,
+    title: "React Dog Studio Website",
+    description:
+      "A modern animated website built with React and Tailwind CSS featuring smooth animations and interactive UI elements inspired by award-winning web design.",
+    image: "/projects/project1.png",
+    tags: ["React", "Tailwind CSS", "GSAP", "Three.js", "JavaScript"],
+    demoUrl: "https://react-dog-studio.netlify.app",
+    githubUrl: "https://github.com/ashif323/react-dog-studio",
+  },
+  {
+    id: 2,
+    title: "Classic Snake Game",
+    description:
+      "A browser-based classic Snake Game built using HTML, CSS, and JavaScript featuring real-time keyboard controls, collision detection, score tracking, and smooth gameplay.",
+    image: "/projects/project2.png",
+    tags: ["HTML", "CSS", "JavaScript", "Game Development"],
+    demoUrl: "https://classic-snake-game-1.netlify.app",
+    githubUrl: "https://github.com/ashif323/snake-game",
+  },
+  {
+    id: 3,
+    title: "Kanban Board",
+    description:
+      "A task management Kanban board application that allows users to create, edit, delete, and organize tasks across columns like To-Do, In Progress, and Done with an interactive drag-and-drop interface.",
+    image: "/projects/project3.png",
+    tags: ["React", "JavaScript", "Drag & Drop", "Task Management", "Vite"],
+    demoUrl: "https://kanban-board-routine.netlify.app/",
+    githubUrl: "https://github.com/ashif323/kanban-board",
+  },
+  {
+    id: 4,
+    title: "React WordPress App",
+    description:
+      "A React frontend seamlessly integrated with WordPress backend via REST API and JWT Auth. Manage posts with rich editing using CKEditor 5, image uploads, and TailwindCSS styling.",
+    image: "/projects/project4.png",
+    tags: ["React", "WordPress", "REST API", "JWT Auth", "CKEditor 5", "Vite"],
+    demoUrl: "https://github.com/ashif323/react-wordpress-app",
+    githubUrl: "https://github.com/ashif323/react-wordpress-app",
+  },
+  {
+  id: 5,
+  title: "Image Editor",
+  description: "A web-based image editor that allows users to upload images and apply filters, adjust brightness/contrast, rotate, and export edited images directly in the browser.",
+  image: "/projects/project5.png",
+  tags: ["JavaScript", "HTML", "CSS", "Canvas API", "Image Processing"],
+  demoUrl: "https://pic-editor-app.netlify.app/",
+  githubUrl: "https://github.com/ashif323/image-editor"
 },
   {
-  "id": 2,
-  "title": "Employee Management System Plugin",
-  "description": "A custom WordPress plugin to manage employee records with CRUD, instant search, and simple MySQL integration. Streamlined WordPress UI for fast employee data operations.",
-  "image": "/projects/project2.png",
-  "tags": ["WordPress", "PHP", "MySQL", "CRUD"],
-  "demoUrl": "#",
-  "githubUrl": "https://github.com/ashif323/Employee-management-system-plugin"
-},
-{
-  "id": 3,
-  "title": "Blog Expense Tracker Plugin",
-  "description": "Easily track, categorize, and manage blogging expenses. Features quick entry, search, charts, and CSV import/export from your WordPress dashboard.",
-  "image": "/projects/project3.png",
-  "tags": ["WordPress", "PHP", "CSV", "Charts", "REST API"],
-  "demoUrl": "#",
-  "githubUrl": "https://github.com/ashif323/blog-expense-tracker-plugin."
-},
+    id: 6,
+    title: "Blog Expense Tracker Plugin",
+    description:
+      "Easily track, categorize, and manage blogging expenses. Features quick entry, search, charts, and CSV import/export from your WordPress dashboard.",
+    image: "/projects/project6.png",
+    tags: ["WordPress", "PHP", "CSV", "Charts", "REST API"],
+    demoUrl: "https://github.com/ashif323/blog-expense-tracker-plugin",
+    githubUrl: "https://github.com/ashif323/blog-expense-tracker-plugin.",
+  },
 ];
 
 export const ProjectsSection = () => {
